@@ -4,7 +4,7 @@
 
 Тренер по физической подготовке в профессиональном хоккее (КХЛ, сборные Беларуси, игроки НХЛ), который проектирует и внедряет цифровые системы вокруг спортивного процесса — без разработчиков в штате. Решения принимаю я, код пишут ИИ-агенты (Claude Code, Cursor, Codex) под инженерными правилами: спецификация до кода, тесты как ворота деплоя, репозиторий как единственный источник правды.
 
-Контакты: dashkevich.training@gmail.com · [LinkedIn](https://www.linkedin.com/in/aleksey-dashkevich/)
+Контакты: +375 44 710-75-61 · Telegram: @the_dashkevich · dashkevich.training@gmail.com · [LinkedIn](https://www.linkedin.com/in/aleksey-dashkevich/)
 
 ---
 
@@ -74,4 +74,4 @@ Strength & conditioning coach in professional hockey (KHL, Belarus national team
 
 Athlete personal data is anonymised in all public materials. Full report samples and working repositories are available on request.
 
-Contacts: dashkevich.training@gmail.com · [LinkedIn](https://www.linkedin.com/in/aleksey-dashkevich/)
+Contacts: +375 44 710-75-61 · Telegram: @the_dashkevich · dashkevich.training@gmail.com · [LinkedIn](https://www.linkedin.com/in/aleksey-dashkevich/)
