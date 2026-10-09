@@ -22,7 +22,7 @@
 4. **Сборка** — отчёт по матчу 5 страниц в день игры, прескаут 3 страницы, фиксированный формат.
 5. **Доставка** — PDF в рабочую папку штаба; скрипты и данные рядом, любой прошлый отчёт воспроизводится один в один.
 
-**Результат.** ≈400 смен и 210 событий за матч автоматически; 9 документов за 11 дней, ни один не собран вручную. Помимо отчётов штаб получил веб-приложение (Streamlit) на данных Wisehockey и протоколов КХЛ.
+**Результат.** ≈400 смен и 210 событий за матч автоматически; 9 документов за 11 дней, ни один не собран вручную. Главная метрика — время до решения: раньше разбор делал весь штаб вручную (1–2 дня на 100+ показателей), сейчас отчёт готов за 30 минут в день игры. Пользуется весь штаб. Помимо отчётов штаб получил веб-приложение (Streamlit) на данных Wisehockey и протоколов КХЛ.
 
 ![Флаги по матчу](images/app-match-flags.png)
 
@@ -76,7 +76,7 @@
 
 Strength & conditioning coach in professional hockey (KHL, Belarus national teams, NHL players) who designs and ships digital systems around the sports process — no developers on payroll. I own architecture and decisions; AI agents (Claude Code, Cursor, Codex) write the code under my engineering rules: specification before code, tests as deployment gates, repository as the single source of truth.
 
-**Case 1 — Match analytics for a KHL coaching staff.** Automated pipeline (collect → validate → coach's rules in code → fixed-format report → delivery): ~400 shifts and 210 events processed per game; 9 documents in 11 days, zero manual assembly. Data validation before calculation is what makes the system truthful. The staff also got a Streamlit application on Wisehockey sensor data and KHL official protocols — screenshots above (player names blurred).
+**Case 1 — Match analytics for a KHL coaching staff.** Automated pipeline (collect → validate → coach's rules in code → fixed-format report → delivery): ~400 shifts and 210 events processed per game; 9 documents in 11 days, zero manual assembly. Key metric — time to decision: manual review by the whole staff took 1–2 days; the report now takes 30 minutes on game day. Adopted by the entire coaching staff. Data validation before calculation is what makes the system truthful. The staff also got a Streamlit application on Wisehockey sensor data and KHL official protocols — screenshots above (player names blurred).
 
 **Case 2 — Athlete-monitoring platform.** Daily wellness/load collection for 116 athletes across 4 teams: Telegram survey bots, Polar → TRIMP, WHOOP recovery/HRV, rule-based alerts that always end with a recommended action, data discipline (NULL ≠ 0, no percentages over empty denominators). Migrated from Google Apps Script to Cloudflare Workers + D1 with tests, CI/CD, staging/prod and a threat model.
 
